@@ -1,0 +1,100 @@
+.Chat {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the container to take up the full viewport height */
+}
+
+.ChatContainer {
+    display: flex;
+    text-align: center;
+    background-color: gray;
+    flex-grow: 1; 
+}
+
+/* |||| |||| */
+
+.sidemenu {
+    color: white;
+    background-color: #1E1E1E;
+    width: 260px;
+}
+
+.side-menu-button {
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: left;
+    width: 95%;
+    margin: 0 auto; /* Horizontally center the button */
+    margin-top: 7px;
+    box-shadow: 0 8px 4px 8px rgba(0,0,0,0.5);
+}
+
+.side-menu-button:hover {
+    background-color: rgb(255,255,255, 0.1);
+}
+
+.chatbox {
+    flex: 1;
+    /* border: 1px solid white; */
+    background-color:#FAFAFA;
+    position: relative;
+}
+
+
+.chat-input-holder {
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+}
+
+.chat-input-textarea {
+    background-color: #1E1E1E;
+    width: 90%;
+    padding: 12px;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 5px;
+    border-color: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 8px 4px 0 rgba(0,0,0,0.5);
+}
+
+.chat-log {
+    text-align: left;
+}
+
+.chat-message.chatgpt {
+    background-color: #D4D4D4;
+}
+
+.chat-message-center {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.avatar {
+    background: rgb(77, 22, 22);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.avatar.chatgpt {
+    background: #0DA37F;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.message {
+    padding-left: 40px;
+    padding-right: 40px;
+}

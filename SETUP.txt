@@ -1,0 +1,31 @@
+Setting up and Running a Next.js Web App on Windows
+
+1. Install Node.js and npm:
+   - Download the Node.js installer from https://nodejs.org/
+   - Run the installer and follow the installation instructions.
+   - After installation, open the Command Prompt and run the following commands to verify the installation:
+     node -v
+     npm -v
+
+2. Clone the GitHub Repository:
+   - Open a Command Prompt and navigate to the directory where you want to clone the project.
+   - Run the following command to clone the repository:
+     git clone <repository_url>
+   - Replace <repository_url> with the actual URL of the GitHub repository.
+
+3. Install Project Dependencies:
+   - Navigate to the cloned project directory using the Command Prompt:
+     cd <project_directory>
+   - Run the following command to install the project dependencies:
+     npm install
+
+4. Configure Environment Variables (if needed):
+   - Some projects might require environment variables for configuration.
+   - Check if there's a `.env.example` file in the project directory.
+   - If it exists, rename it to `.env` and fill in the necessary values.
+
+5. Run the Development Server:
+   - After installing dependencies, you can start the development server using the following command:
+     npm run dev
+   - The server will start, and you'll see output indicating that the app is running.
+   - Open your web browser and navigate to http://localhost:3000 to see the web app in action.
